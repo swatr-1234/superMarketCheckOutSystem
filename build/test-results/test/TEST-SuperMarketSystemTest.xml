@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SuperMarketSystemTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-03-15T07:13:49" hostname="GS-2649" time="0.443">
+  <properties/>
+  <testcase name="Testing item selection method" classname="SuperMarketSystemTest" time="0.034"/>
+  <testcase name="[1] null" classname="SuperMarketSystemTest" time="0.045"/>
+  <testcase name="[2] " classname="SuperMarketSystemTest" time="0.015"/>
+  <testcase name="[3] asdf" classname="SuperMarketSystemTest" time="0.018"/>
+  <testcase name="[4] @#$%$#%" classname="SuperMarketSystemTest" time="0.014"/>
+  <testcase name="[5] QWERR" classname="SuperMarketSystemTest" time="0.015"/>
+  <testcase name="[6] 1267" classname="SuperMarketSystemTest" time="0.012"/>
+  <testcase name="[1] AAAD" classname="SuperMarketSystemTest" time="0.012"/>
+  <testcase name="[2] ABCD" classname="SuperMarketSystemTest" time="0.013"/>
+  <testcase name="[3] AACC" classname="SuperMarketSystemTest" time="0.01"/>
+  <testcase name="[4] ADBC" classname="SuperMarketSystemTest" time="0.016"/>
+  <testcase name="[1] AAAD" classname="SuperMarketSystemTest" time="0.015"/>
+  <testcase name="[2] ABCD" classname="SuperMarketSystemTest" time="0.018"/>
+  <testcase name="[3] AACC" classname="SuperMarketSystemTest" time="0.017"/>
+  <testcase name="[4] ADBC" classname="SuperMarketSystemTest" time="0.02"/>
+  <testcase name="Testing calculatingPricingAndDiscountOfferOnAllItems for valid items" classname="SuperMarketSystemTest" time="0.032"/>
+  <testcase name="[1] A, 3, 130, 3, 50" classname="SuperMarketSystemTest" time="0.02"/>
+  <testcase name="[1] B, 2, 37, 2, 30" classname="SuperMarketSystemTest" time="0.018"/>
+  <system-out><![CDATA[This is setup method
+Start...Testing item selection method
+End...Testing item selection method
+Start...[1] null
+ENTERED ITEMS ARE NOT VALID
+End...[1] null
+Start...[2] 
+ENTERED ITEMS ARE NOT VALID
+End...[2] 
+Start...[3] asdf
+ENTERED ITEMS ARE NOT VALID
+End...[3] asdf
+Start...[4] @#$%$#%
+ENTERED ITEMS ARE NOT VALID
+End...[4] @#$%$#%
+Start...[5] QWERR
+ENTERED ITEMS ARE NOT VALID
+End...[5] QWERR
+Start...[6] 1267
+ENTERED ITEMS ARE NOT VALID
+End...[6] 1267
+Start...[1] AAAD
+End...[1] AAAD
+Start...[2] ABCD
+End...[2] ABCD
+Start...[3] AACC
+End...[3] AACC
+Start...[4] ADBC
+End...[4] ADBC
+Start...[1] AAAD
+Key:A---Value:3
+Key:D---Value:1
+End...[1] AAAD
+Start...[2] ABCD
+Key:A---Value:1
+Key:B---Value:1
+Key:C---Value:1
+Key:D---Value:1
+End...[2] ABCD
+Start...[3] AACC
+Key:A---Value:2
+Key:C---Value:2
+End...[3] AACC
+Start...[4] ADBC
+Key:A---Value:1
+Key:B---Value:1
+Key:C---Value:1
+Key:D---Value:1
+End...[4] ADBC
+Start...Testing calculatingPricingAndDiscountOfferOnAllItems for valid items
+Key:A---Value:1
+Key:B---Value:1
+Key:C---Value:1
+Key:D---Value:1
+INITIAL COUNT ON A:1
+Offer count on :A0
+after COUNT:A1
+price Of:A50
+PRICE OF A:50
+INITIAL COUNT ON B:1
+Offer count on :B0
+after COUNT:B1
+price Of:B30
+PRICE OF B:30
+PRICE OF C:20
+PRICE OF D:10
+End...Testing calculatingPricingAndDiscountOfferOnAllItems for valid items
+Start...[1] A, 3, 130, 3, 50
+INITIAL COUNT ON A:3
+Offer count on :A1
+after COUNT:A3
+price Of:A130
+End...[1] A, 3, 130, 3, 50
+Start...[1] B, 2, 37, 2, 30
+INITIAL COUNT ON B:2
+Offer count on :B1
+after COUNT:B2
+price Of:B37
+End...[1] B, 2, 37, 2, 30
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
